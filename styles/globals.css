@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components{
+  .page-title{
+    @apply text-center text-3xl m-10
+  }
+}
